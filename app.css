@@ -1,0 +1,51 @@
+
+
+
+h1 {
+    text-align: center;
+}
+
+body {
+    position: absolute;
+   
+}
+
+#board {
+    position: relative;
+    width: 1000px;
+    top: 75%;
+    left: 15%;
+}
+
+#board td {
+    width: 250px;
+    height: 150px;
+    border: solid 1px #666;
+  }
+
+  
+
+  #table-body {
+      width: 700px;
+  }
+ 
+  
+  /* column-top is table row of clickable areas for each column */
+  th {
+    width: 150px;
+    height: 150px;
+    border: solid 1px #666;
+  }
+  
+  #column-top {
+    width: 150px;
+    height: 150px;
+    border: solid 1px #666;
+
+  }
+
+
+   td:hover {
+    background-color: black;
+    opacity: .025;
+  }
