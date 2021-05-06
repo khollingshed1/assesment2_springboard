@@ -1,12 +1,23 @@
 
 
 
-h1 {
+#form-1 {
+  position: absolute;
+    left: 55%;
     text-align: center;
+
+}
+
+h1 {
+  position: relative;
+    text-align: center;
+    left: 15%;
 }
 
 body {
     position: absolute;
+    top: 5%;
+
    
 }
 
@@ -20,7 +31,12 @@ body {
 #board td {
     width: 250px;
     height: 150px;
-    border: solid 1px #666;
+    border: solid 3px white;
+    text-align: center;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+
   }
 
   
@@ -35,17 +51,23 @@ body {
     width: 150px;
     height: 150px;
     border: solid 1px #666;
+    text-align: center;
+    background-color: blue;
+    color: white;
   }
   
   #column-top {
     width: 150px;
     height: 150px;
-    border: solid 1px #666;
+    border: solid;
+    text-align: center;
 
   }
+  
 
 
    td:hover {
     background-color: black;
-    opacity: .025;
+    opacity: .95;
+  
   }

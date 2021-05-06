@@ -1,6 +1,3 @@
-
-
-
 const btn1 = document.querySelector('#btn1');
 
 
@@ -174,5 +171,4 @@ if(spot1 === 0){
 
 makeHtmlBoard();
 jeopardyCategory(50);
-
 
